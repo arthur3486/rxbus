@@ -10,12 +10,11 @@
 ````groovy
 ext {
     //...
-    rxBusVersion = "1.0.1"
+    rxBusVersion = "1.1.0"
 }
 
 dependencies {
     //...
     implementation "com.arthurivanets.rxbus:rxbus:$rxBusVersion"
-    implementation "com.arthurivanets.rxbus:rxbus-android:$rxBusVersion"
 }
 ````
